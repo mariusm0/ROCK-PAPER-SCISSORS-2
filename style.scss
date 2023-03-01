@@ -1,0 +1,64 @@
+img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.player, .pc {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.player {
+    margin-top: 100px;
+}
+
+.player > div, .pc > div {
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.player > div:hover {
+ background-color: rgba(184, 203, 221, 0.337);
+}
+
+.result {
+    width: 40vh;
+    height: 100px;
+    border: 1px solid rgb(180, 180, 180);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rslt1, .rslt2 {
+    font-size: 100px;
+    font-family:monospace;
+    color: rgb(79, 146, 205);
+}
+
+.output, .pcSelection {
+    font-family:monospace;
+    color: rgb(79, 146, 205);
+    font-size: 20px;
+}
+
+.rslt1 {
+    margin-left: 10px;
+}
+
+.rslt2 {
+    margin-right: 10px;
+}
+
+
+
+
+
+
